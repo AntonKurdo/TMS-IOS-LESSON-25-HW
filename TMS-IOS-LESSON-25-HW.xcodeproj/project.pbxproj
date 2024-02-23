@@ -13,6 +13,8 @@
 		040BAF1D2B88A42F00E24EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040BAF1B2B88A42F00E24EEC /* Main.storyboard */; };
 		040BAF1F2B88A43100E24EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040BAF1E2B88A43100E24EEC /* Assets.xcassets */; };
 		040BAF222B88A43100E24EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040BAF202B88A43100E24EEC /* LaunchScreen.storyboard */; };
+		040BAF2B2B88A51000E24EEC /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BAF2A2B88A51000E24EEC /* Person.swift */; };
+		040BAF2D2B88A52500E24EEC /* Apartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040BAF2C2B88A52500E24EEC /* Apartment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		040BAF1E2B88A43100E24EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040BAF212B88A43100E24EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040BAF232B88A43100E24EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040BAF2A2B88A51000E24EEC /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		040BAF2C2B88A52500E24EEC /* Apartment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		040BAF142B88A42F00E24EEC /* TMS-IOS-LESSON-25-HW */ = {
 			isa = PBXGroup;
 			children = (
+				040BAF292B88A50400E24EEC /* Classes */,
 				040BAF152B88A42F00E24EEC /* AppDelegate.swift */,
 				040BAF172B88A42F00E24EEC /* SceneDelegate.swift */,
 				040BAF192B88A42F00E24EEC /* ViewController.swift */,
@@ -65,6 +70,15 @@
 				040BAF232B88A43100E24EEC /* Info.plist */,
 			);
 			path = "TMS-IOS-LESSON-25-HW";
+			sourceTree = "<group>";
+		};
+		040BAF292B88A50400E24EEC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				040BAF2A2B88A51000E24EEC /* Person.swift */,
+				040BAF2C2B88A52500E24EEC /* Apartment.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +154,8 @@
 			files = (
 				040BAF1A2B88A42F00E24EEC /* ViewController.swift in Sources */,
 				040BAF162B88A42F00E24EEC /* AppDelegate.swift in Sources */,
+				040BAF2D2B88A52500E24EEC /* Apartment.swift in Sources */,
+				040BAF2B2B88A51000E24EEC /* Person.swift in Sources */,
 				040BAF182B88A42F00E24EEC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
